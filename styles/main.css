@@ -1,0 +1,276 @@
+/* the styles for the elements */
+header h2 {
+	font-size: 170%;
+	color: #800000;
+	text-indent: 30px;
+}
+
+header h3 {
+	font-size: 130%;
+	font-style: italic;
+	text-indent: 30px;
+}
+main {
+	clear: left;
+}
+#nav_menu {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+#nav_menu li {
+	float: left;
+}
+#nav_menu li a{
+	display: block;
+	text-align: center;
+	width: 12.5%;
+	min-width: 160px;
+	margin: auto;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	text-decoration: none;
+	background-color: #800000;
+	color: white;
+	font-weight: bold;
+}
+#nav_menu li a.current {
+	color: yellow;
+}
+#nav_menu li ul {
+	position: absolute;
+	visibility: hidden;
+}
+#sub_menu {
+	list-style: none;
+	position: center;
+	float: none;
+}
+#sub_menu li {
+	vertical-align: middle;
+}
+#nav_menu li:hover ul{
+	visibility: visible;
+	display: block;
+	cursor: pointer;
+}
+h1 {
+	font-size: 150%;
+	padding-top: .5em;
+	padding-bottom: .25em;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+main h2{
+	font-size: 130%;
+	color: #800000;
+	padding-top: .5em;
+	padding-bottom: .25em;
+}
+
+main h3{
+	font-size: 105%;
+	padding-bottom: .25em;
+}
+
+a:focus {
+	font-style: italic;
+}
+
+a:hover {
+	font-style: italic;
+}
+
+.shadow {
+	text-shadow: 2px 2px;
+	color: #800000;
+}
+
+main p{
+	padding-bottom: .5em;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 100%;
+	width: 99%;
+	max-width: 960px;
+	border-left: 3px;
+	border-right: 3px;
+}
+main section{
+	width: 94.32%;
+	float: none;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+}
+main h1{
+	border-bottom: solid #931420;
+}
+#ticketPackages{
+	border-top: solid #931420;
+}
+article {
+	padding-top: .5em;
+	padding-bottom: .5em;
+	border-bottom: 2px;
+	border-top: 2px;
+	border-color: #800000;
+}
+article h2{
+	padding:0;
+}
+article h3{
+	font-size: 105%;
+	padding-bottom: .25em;
+	padding-top: 1em;
+}
+
+article img{
+	float: right;
+	margin: 2px;
+	border: solid black 1px;
+	max-width: 40%;
+	min-width: 150px;
+}
+main aside{
+	width: 94.32%;
+	float: none;
+	padding-left: 2.84%;
+	padding-right: 2.84%;
+	padding-bottom: 20px;
+}
+aside h3{
+	font-size: 105%;
+	padding-bottom: .25em;
+}
+aside img{
+	padding-bottom: 1em;
+}
+/* the styles for the header */
+header img {
+	float: left;
+	padding-left: 0.105%;
+	padding-right: 0.105%;
+}
+
+/* the styles for the section */
+
+/* the styles for the footer */
+footer{
+	clear: both;
+}
+footer p{
+	text-align: center;
+}
+	/*Reset Selector*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	width: 800px;
+	margin: 0 auto;
+	border: solid #931420;
+	background-color: #fffded;
+}
+html {
+	background-color: white;
+}
+header {
+	border-bottom: solid #931420;
+	padding-top:  1.5em;
+	padding-bottom: 2em;
+	background: linear-gradient(30deg,#f6bb73 0%,#f6bb73 30%,white 50%,#f6bb73 80%,#f6bb73 100%);
+}
+
+header img{
+	padding-right: 30px;
+	padding-left: 30px;
+}
+
+main blockquote{
+	padding-right: 2em;
+	padding-left: 2em;
+}
+main ul {
+	padding-bottom: .25em;
+	padding-left: 1.25em;
+}
+main li {
+	padding-bottom: .35em;
+}
+blockquote {
+	font-style: italic;
+}
+footer p {
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+.slicknav_menu {
+	display: none;
+}
+@media only screen and (max-width: 767px) {
+	.js #menu {
+		display: none;
+	}
+	.js .slicknav_menu {
+		display: block;
+	}
+	.slicknav_menu {
+		background-color: #800000;
+	}
+}
+@media only screen and (max-width: 767px) {
+	.js #menu {
+		display: none;
+	}
+	.js .slicknav_menu {
+		display: block;
+	}
+	.slicknav_menu {
+		background-color: #800000;
+	}
+}
+@media only screen and (max-width: 959px) {
+	main section h1 {
+		font-size: 135%;
+	}
+	main section h2 {
+		font-size: 120%;
+	}
+}
+@media only screen and (max-width: 767px) {
+	header img {
+		float: none;
+	}
+	header {
+		text-align: center;
+	}
+}
+@media only screen and (max-width: 767px) {
+	article img {
+		max-width: 30%;
+	}
+}
+@media only screen and (max-width: 767px) {
+	aside div {
+		-moz-column-count: 2;
+		-webkit-column-count: 2;
+		column-count: 2;
+	}
+}
+@media only screen and (max-width: 479px) {
+	body {
+		font-size: 90%;
+	}
+}
+footer {
+	border: solid #931420;
+	background-color:#931420;
+	color: white;
+}
